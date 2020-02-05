@@ -1,0 +1,18 @@
+{
+	"always_show_minimap_viewport": true,
+	"color_scheme": "Packages/1337 Color Scheme/1337.tmTheme",
+	"default_encoding": "UTF-8",
+	"font_face": "Times New Roman",
+	"font_size": 24,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"scroll_past_end": false,
+	"show_tab_close_buttons": false,
+	"spell_check": false,
+	"tab_size": 4,
+	"theme": "Material-Theme-Palenight.sublime-theme",
+	"word_wrap": true
+}

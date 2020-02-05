@@ -1,0 +1,22 @@
+/**
+ * @author others|monkindey
+ * @date 2014-11-18
+ * @reference http://sublime-text.readthedocs.org/en/latest/reference/build_systems.html 
+ */
+
+{
+	// 命令执行
+	"cmd": ["gcc", "${file}", "-o", "${file_path}/${file_base_name}"],
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	// 当前工作目录
+	"working_dir": "${file_path}",
+	// 当选择Tools|Build System|Automatic，Sublime Text找到适合的文件进行构建
+	"selector": "source.c",
+	"variants": [{
+		"name": "Run",
+		"cmd": ["cmd", "/c", "gcc", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "cmd", "/c", "${file_path}/${file_base_name}"]
+	}, {
+		"name": "RunInCommand",
+		"cmd": ["cmd", "/c", "gcc", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "start", "cmd", "/c", "${file_path}/${file_base_name} & pause"]
+	}]
+}

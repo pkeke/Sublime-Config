@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"D:\\Software\\Sublime\\channel_v3.json"
+	],
+	"debug": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"10% Too Dull for My Tastes Color Scheme",
+		"1337 Color Scheme",
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"Anaconda",
+		"AutoPEP8",
+		"Better Completion",
+		"BracketHighlighter",
+		"C Improved",
+		"ClangAutoComplete",
+		"Clipboard Manager",
+		"ConvertToUTF8",
+		"DashDoc",
+		"DocBlockr",
+		"FileHeader",
+		"FindKeyConflicts",
+		"GBK Support",
+		"Git",
+		"Jedi - Python autocompletion",
+		"Keymaps",
+		"Material Theme",
+		"orgmode",
+		"Package Control",
+		"Python Breakpoints",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeREPL",
+		"SublimeTmpl",
+		"Terminal",
+		"Theme - Afterglow",
+		"WakaTime",
+		"WordCount"
+	]
+}

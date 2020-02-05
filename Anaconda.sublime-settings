@@ -1,0 +1,43 @@
+/*{
+    "python_interpreter": "D:/Software/Python/pythonw.exe",
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "complete_parameters": false,
+    "anaconda_linter_phantoms": true,
+    "pyflakes_explicit_ignore":
+    [
+        // "Redefined",
+        "UnusedImport"
+        // "UndefinedName",
+        // "UndefinedLocal",
+        // "UnusedVariable,",
+        // "UndefinedExport",
+        // "DuplicateArgument",
+        // "RedefinedWhileUnused"
+    ],
+    "anaconda_linting_behaviour": "save-only",
+}*/
+{
+    //由于Anaconda插件本身无法知道Python安装的路径，所以需要设置Python主程序的实际位置
+    "python_interpreter": "D:/Software/Python/pythonw.exe",
+    //忽略各种空格不对, 超过79字, import的函数没有使用的提醒,
+    "pep8_ignore": ["E501", "W292", "E303", "W391", "E225", "E302", "W293", "E402"],
+    "pyflakes_explicit_ignore":
+    [
+        "UnusedImport"
+    ],
+    //保存文件后自动pep8格式化
+    "auto_formatting": true,
+    "auto_formatting_timeout": 5,
+    //库函数的提示
+    "enable_signatures_tooltip": true,
+    "merge_signatures_and_doc":true,
+
+    //ST3也有自动补全提示，但只提示文件中输入过的单词，这个功能可用提示变量可用的函数等。
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "complete_parameters": true,
+    //代码排版时，行的默认长度太短，根据喜好设置
+    "pep8_max_line_length": 120,
+}
+
